@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Circuit</title>
+    </head>
+    <body>
+        <h1>Circuit is {{c}}</h1>
+        <h2>{{d}}</h2>
+
+        <ol> 
+            <!-- For loop logic of jinja template -->
+            {%for i in range(0, 4)%} 
+              
+                <li>{{d[i]}}</li> 
+            {%endfor%} 
+              
+            </ol>
+    </body>
+</html>
